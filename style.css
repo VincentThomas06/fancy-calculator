@@ -91,7 +91,7 @@ body::after
 }
 .container .calculator span:active
 {
-    background: rgda(255, 255, 255, 0.1);
+    background: rgda(255, 255, 255, 0.8);
     color: #192f00;
     font-size: 24px;
     font-weight: 500;
