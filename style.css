@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Cascadia Code";
+    font-family: "Helvetica";
 }
 body
 {
@@ -108,4 +108,22 @@ body::after
 .equal
 {
     background: rgba(255, 255, 255, 0.05)
+}
+
+h1 {
+    position: absolute;
+    right: 206px;
+    top: 300px;
+}
+
+p {
+    position: absolute;
+    right: 136px;
+    top: 350px;
+    color:rgb(0, 0, 0, 1);
+}
+ul {
+    position: absolute;
+    right: 500px;
+    top: 420px;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset = "UTF-8" name = "Fancy Calculator" content = "This website is the perfect calculator for you! It's got all the functionallity you would want from a calculator and a fancy ui!">
     <title>Calculator</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -12,10 +13,23 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
+      <h1>Hi! Thank you for using my app!</h1>
+      <p>
+          <b>
+              Thank you for using my calculator. I intend to make it simple and clean<br>
+              with no ads for you to enjoy! This will probably help you with your math :)<br>
+              Here are some link to my other websites:<b>
+              <b>
+            <ul>
+                <li><a href = "https://youtu.be/s7iuavaLnx8" target = "_blank">Main website</a></li>
+                <li><a href = "https://youtu.be/J0qULWEdRv8" target = "_blank">Some random shit...</a></li>
+            </ul>
+              </p>
+
     <div class="container">
       <form class="calculator" name="calc">
         <input type="text" readonly class="value" name="txt" />
-        <span class="num clear" onclick="calc.txt.value=''">C</span>
+        <span class="num clear" onclick="calc.txt.value=''">c</span>
         <span class="num" onclick="document.calc.txt.value +='/'">/</span>
         <span class="num" onclick="document.calc.txt.value +='*'">x</span>
         <span class="num" onclick="document.calc.txt.value +='7'">7</span>
