@@ -112,18 +112,15 @@ body::after
 
 h1 {
     position: absolute;
-    right: 206px;
-    top: 300px;
+    center: content;
+
+    top: 10%;
 }
 
 p {
     position: absolute;
-    right: 136px;
-    top: 350px;
+    center: center;
+    top: 15%;
     color:rgb(0, 0, 0, 1);
 }
-ul {
-    position: absolute;
-    right: 500px;
-    top: 420px;
-}
+
