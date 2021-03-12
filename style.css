@@ -112,14 +112,12 @@ body::after
 
 h1 {
     position: absolute;
-    center: content;
 
     top: 10%;
 }
 
 p {
     position: absolute;
-    center: center;
     top: 15%;
     color:rgb(0, 0, 0, 1);
 }
