@@ -1,0 +1,1 @@
+console.log("User visited the website");
